@@ -12,8 +12,7 @@
     "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
     "eslint": "eslint src webpack",
     "posttest": "npm run eslint",
-    "dev": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",
-    "start": "webpack --config webpack/prod.config.js",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",    
     "test": "jest --runInBand",
     "deploy": "npm run build && gh-pages -d build"
   },
