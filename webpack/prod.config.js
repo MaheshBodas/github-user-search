@@ -45,7 +45,7 @@ module.exports = merge(baseConfig, {
       minimize: true,
     }),
     new webpack.EnvironmentPlugin({
-      USER_SEARCH_OAUTH : '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'
+      USER_SEARCH_OAUTH : 'Add your GitHub token here'
   }),
   ],
 });
